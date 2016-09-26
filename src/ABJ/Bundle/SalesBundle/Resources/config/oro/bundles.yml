@@ -1,0 +1,2 @@
+bundles:
+    - { name: ABJ\Bundle\SalesBundle\ABJSalesBundle, priority: 40 }
