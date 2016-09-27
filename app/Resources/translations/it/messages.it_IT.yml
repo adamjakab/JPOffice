@@ -1,1 +1,42 @@
-orocrm.sales.b2bcustomer.entity_plural_label: Cliente B2B
+entity.account.name: Azienda
+
+
+oro:
+  business_unit.label: Business Unit
+  cron.menu.cron_schedule.label: Esecuzione automatica
+  datagrid.no.entities: Nessun elemento trovato
+  form.choose_date: Seleziona una data
+  importexport.export.label: Esporta
+  message_queue_job.menu.label: Coda messaggi
+  notification.massnotification.entity_label: Notifica di massa
+  notification.massnotification.entity_plural_label: Notifiche di massa
+  ui.create_entity: Crea %entityName%
+  user.menu.oro_user_profile_configuration.label: La mia configurazione
+
+  locale.menu.localization.label: Lingua & Localizzazione
+  locale.menu.localizations.label: Localizzazioni
+  translation.menu.languages.label: Lingue
+
+
+orocrm:
+  account.menu.customers_tab.label: Anagrafica
+  account.entity_label: Azienda
+  account.entity_plural_label: Aziende
+
+  contact.entity_label: Contatto
+  contact.entity_plural_label: Contatti
+
+  sales.b2bcustomer.entity_label: Cliente B2B
+  sales.b2bcustomer.entity_plural_label: Clienti B2B
+
+  case.menu.index.label: Reclami
+  case.caseentity.entity_label: Reclamo
+  case.caseentity.entity_plural_label: Reclami
+
+  sales.opportunity.customer.label: Cliente
+  sales.opportunity.contact.label: Contatto
+  sales.opportunity.close_date.label: Data chiusura
+  sales.lead.datagrid.views.open: Stato aperto
+
+  task.entity_label: Compito
+  task.entity_plural_label: Compiti

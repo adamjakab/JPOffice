@@ -1,3 +1,65 @@
 # use 'app/console oro:translation:dump it_IT' not 'it'!!!
 
-oro.datagrid.gridView.actions: "options"
+oro.datagrid.gridView.actions: Opzioni
+oro.datagrid.gridView.all: "*"
+oro.datagrid.gridView.data_edited: Modificato
+oro.datagrid.gridView.name: Nome
+oro.datagrid.gridView.save_name: Salva
+oro.datagrid.no.entities: Nessun elemento trovato
+oro.datagrid.action.save_grid_view_as: Salva con nome
+oro.datagrid.action.rename_grid_view: Rinomina
+oro.datagrid.action.share_grid_view: Condividi
+oro.datagrid.action.unshare_grid_view: Rimuovi condivisione
+oro.datagrid.action.delete_grid_view: Elimina
+oro.datagrid.action.discard_grid_view_changes: Annulla modifiche
+oro.datagrid.action.set_as_default_grid_view: Predefinito
+
+oro.datagrid.name_modal.title: Datagrid
+
+oro.datagrid.action.save_grid_view: Salva
+
+oro.datagrid.gridView.updated: Configurazione datagrid aggiornata.
+oro.datagrid.gridView.created: Configurazione datagrid creata.
+oro.datagrid.gridView.deleted: Configurazione eliminata.
+
+### A MUZZO - CONTROLLARE ###
+oro.ui.datepicker.close: Chiudi
+oro.ui.datepicker.prev: Precedente
+oro.ui.datepicker.next: Prossimo
+oro.ui.datepicker.today: Oggi
+oro.ui.datepicker.wk: Sett.
+Please select: Segli
+oro.email.notification.empty: Vuoto
+"OK, got it.": "Ok, capito"
+"Are you sure you want to delete these items?": Sei sicuro di voler eliminare questi elementi?
+oro.email.recent_emails_widget.description: Widget - Email recenti
+oro.sidebar.sticky_note_widget.description: Widget - Appicichini
+orocrm.task.assigned_tasks_widget.description: Widget - Compiti assegnati
+Edit: Modifica
+prepositions: Preposizioni
+postpositions: Postposizioni
+articles: Articoli
+abbreviate_ignore_list:
+oro.datagrid.mass_action.title: Aggiornamento di massa
+oro.datagrid.column_manager.title: Gestione colonne
+oro.form.choose_date: Seleziona una data
+oro.form.choose_time: Seleziona un orario
+oro.ui.unload_message.single: Single Unload message
+oro.ui.unload_message.group_title: Group Unload message
+oro.form.inlineEditing.helpMessage: Inline help message
+oro.ui.timepicker.am: AM
+oro.ui.timepicker.pm: PM
+oro.ui.timepicker.AM: AM
+oro.ui.timepicker.PM: PM
+oro.ui.timepicker.mins: minuti
+oro.ui.timepicker.hr: ora
+oro.ui.timepicker.hrs: ore
+oro.datagrid.pagination.visibleItems: Visibili
+oro.datagrid.toolbar_sorting.label: Ordinamento
+
+oro.filter.date.part.week.tooltip: Settimana
+oro.filter.date.part.day.tooltip: Giorno
+oro.filter.date.part.quarter.tooltip: Quadrimestre
+oro.filter.date.part.dayofyear.tooltip: Giorno
+oro.filter.date.part.year.tooltip: Anno
+
