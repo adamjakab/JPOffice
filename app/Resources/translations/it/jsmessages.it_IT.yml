@@ -1,7 +1,7 @@
 # use 'app/console oro:translation:dump it_IT' not 'it'!!!
 
 oro.datagrid.gridView.actions: Opzioni
-oro.datagrid.gridView.all: "*"
+oro.datagrid.gridView.all: "Tutti/e"
 oro.datagrid.gridView.data_edited: Modificato
 oro.datagrid.gridView.name: Nome
 oro.datagrid.gridView.save_name: Salva
