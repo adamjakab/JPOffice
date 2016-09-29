@@ -79,9 +79,10 @@
     {% set id = 'lead-profile' %}
 
     {% set formFields = [] %}
-    {% if form.owner is defined %}
-        {% set formFields = formFields|merge([form_row(form.owner)]) %}
-    {% endif %}
+
+    {#{% if form.owner is defined %}#}
+        {#{% set formFields = formFields|merge([form_row(form.owner)]) %}#}
+    {#{% endif %}#}
 
     {% set dataBlocks = [{
             'title': 'General'|trans,
@@ -91,16 +92,16 @@
                     'title': 'orocrm.sales.lead.information'|trans,
                     'data': formFields|merge([
                                 form_row(form.name),
-                                form_row(form.status),
-                                form_row(form.companyName),
+                                form_row(form.notes)
                             ])
                 },
                 {
                     'data': [
+                        form_row(form.owner),
+                        form_row(form.dataChannel),
                         form_row(form.source),
                         form_row(form.campaign),
-                        form_row(form.dataChannel),
-                        form_row(form.notes)
+                        form_row(form.status)
                     ]
                 },
             ]
@@ -113,11 +114,8 @@
             'subblocks': [
                 {
                     'data': [
-                        form_row(form.namePrefix),
                         form_row(form.firstName),
-                        form_row(form.middleName),
                         form_row(form.lastName),
-                        form_row(form.nameSuffix),
                         form_row(form.jobTitle),
                         form_row(form.emails),
                         form_row(form.phones),
@@ -139,6 +137,7 @@
 
     {% set additionalData = [
         form_row(form.website),
+        form_row(form.companyName),
         form_row(form.numberOfEmployees),
         form_row(form.industry)
     ] %}

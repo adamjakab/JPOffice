@@ -1,7 +1,7 @@
 {
-    "name": "oro/crm-application",
-    "description": "The OroCRM distribution",
-    "homepage": "https://github.com/orocrm/crm-application.git",
+    "name": "jakabadambalazs/jpo",
+    "description": "An OroCRM clone for personal JP office stuff",
+    "homepage": "https://github.com/adamjakab/jpo.git",
     "license": "OSL-3.0",
     "autoload": {
         "psr-0": {
